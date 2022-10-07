@@ -22,8 +22,13 @@ class Password{
     }
 
     generarPass(length,pass){
-        pass = (Math.floor(Math.random()) * length)
-        console.log(pass)
+        let contra = []
+
+        for(let i = 0; i<8;i++){
+            contra.push(parseInt(Math.random() * 10))
+        }
+
+        console.log(parseInt(contra.join("")))
     }
 
 }
