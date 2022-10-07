@@ -1,5 +1,5 @@
 class Persona {
-    constructor(nombre = "Pepe", edad = 30, dni, sexo = "m", peso = 70, altura = "1,8m") {
+    constructor(dni, nombre = "Pepe", edad = 30, sexo = "m", peso = 70, altura = "1,8m") {
         this.nombre = nombre
         this.edad = edad
         this.dni = dni
@@ -9,3 +9,4 @@ class Persona {
     }
 }
 
+let persona1 = new Persona()
