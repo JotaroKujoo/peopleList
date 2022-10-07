@@ -9,4 +9,6 @@ class Persona {
     }
 }
 
-let persona1 = new Persona()
+let persona1 = new Persona("73816732Y")
+let persona2 = new Persona("73434232Z")
+let persona3 = new Persona("37816732O")
